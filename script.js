@@ -8,3 +8,12 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
         document.getElementById('searchResults').innerHTML = data;
     });
 });
+
+function openModal() {
+    document.getElementById('searchModal').style.display = 'block';
+  }
+  
+  function closeModal() {
+    document.getElementById('searchModal').style.display = 'none';
+  }
+
